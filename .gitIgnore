@@ -1,0 +1,102 @@
+# Wordpress - ignore core, configuration, examples, uploads and logs.
+# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+# Core
+#
+# Note: if you want to stage/commit WP core files
+# you can delete this whole section/until Configuration.
+/wp-admin/
+/wp-content/ai1wm-backups
+/wp-content/index.php
+/wp-content/languages
+/wp-content/plugins/
+/wp-content/mu-plugins/
+/wp-content/backups-dup-lite
+/wp-content/wp-rocket-config
+/wp-content/wflogs
+/wp-content/advanced-cache.php
+/wp-content/wp-defender-secrets.php
+/wp-content/themes/hello-elementor
+/wp-content/themes/index.php
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+/.tmb
+/.vscode
+/.well-known
+/adminer.sql
+/adminera.php
+/readme.b77c65760bb5dc4660b82f4676b77ccf.html
+/wordfence-waf.php
+/nginx.conf
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+
+# Configuration
+wp-config.php
+
+# Example themes
+/wp-content/themes/twentytwentyfour/
+/wp-content/themes/twentytwentythree/
+/wp-content/themes/twentytwentytwo/
+/wp-content/themes/twenty/assets
+/wp-content/themes/twentyclasses
+/wp-content/themes/twentyinc
+/wp-content/themes/twenty/template-parts
+/wp-content/themes/twenty/templates
+/wp-content/themes/twenty/vendor
+/wp-content/themes/twenty/404.php
+/wp-content/themes/twenty/comments.php
+/wp-content/themes/twenty/composer.json
+/wp-content/themes/twenty/composer.lock
+/wp-content/themes/twenty
+/wp-content/themes/twenty/footer.php
+/wp-content/themes/twenty/header.php
+/wp-content/themes/twenty/index.js
+/wp-content/themes/twenty/index.php
+/wp-content/themes/twenty/package-lock.json
+/wp-content/themes/twenty/package.json
+/wp-content/themes/twenty/page-login.php
+/wp-content/themes/twenty/page-signup.php
+/wp-content/themes/twenty/print.css
+/wp-content/themes/twenty//quick-edit-html.php
+/wp-content/themes/twenty/screenshot.png
+/wp-content/themes/twenty/searchform.php
+/wp-content/themes/twenty/singularform.php
+/wp-content/themes/twenty/style-rtl.css
+/wp-content/themes/twenty/style.css
+# Example plugin
+/wp-content/plugins/hello.php
+
+# Uploads
+/wp-content/uploads/
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# All plugins
+#
+# Note: If you wish to whitelist plugins,
+# uncomment the next line
+#/wp-content/plugins
+
+# All themes
+#
+# Note: If you wish to whitelist themes,
+# uncomment the next line
+#/wp-content/themes
